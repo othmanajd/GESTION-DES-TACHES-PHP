@@ -1,0 +1,244 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+header
+{
+    background-color: rgb(208, 208, 255);
+    height: 70px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+}
+.logo .mins
+{
+    width: 250px;
+    height: 75px;
+    margin: 0 0 0 50px;
+}
+.profil
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.profil p
+{
+    padding: 0 20px 0 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(14, 7, 95);
+    font-size: larger;
+    font-weight: bold;
+}
+.profil .sub-1 .fa
+{
+    color: rgb(14, 7, 95);
+}
+.profil img
+{
+    width: 65px;
+    border-radius: 25px;
+}
+.cache
+{
+    display: none;
+    position: absolute;
+    top:48px;
+    height: 90px;
+    background-color: rgb(208, 208, 255);
+    margin-left: 120px;
+    width: 150px;
+    font-weight: bold;
+    font-size: large;
+    padding: 0 18px 0 10px;
+    border-radius: 5px;
+    transition: all 1s;
+}
+.cache p
+{
+    border-bottom: 1px dotted white;
+    padding: 8px;
+    text-align: center;
+    cursor: pointer;
+    font-size: large;
+    font-weight: bold;
+}
+.cache p:last-child
+{
+    border-bottom:none;
+}
+
+.profil .cache a
+{
+    text-decoration: none;
+}
+.profil .cache a:hover
+{
+    color: aqua;
+}
+.profil .cache p:hover
+{
+    color: aqua;
+    transform: scaleX(1.15);
+}
+.menu-tache
+{
+    margin-top: 70px;
+    width: 25.7%;
+    height: 605px;
+    background-color: rgb(46, 81, 110);
+    position:fixed;
+}
+.menu-tache ul
+{
+    /* padding-top:5px; */
+    text-align: center;
+}
+.menu-tache ul li
+{
+    padding:38px 0 ;
+    border-bottom: 1px dotted white;
+    color:rgb(252, 251, 250);
+    font-weight: bolder;
+    font-size:larger;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+.menu-tache ul li a
+{
+    color:rgb(252, 251, 250);
+    font-weight: bold;
+    font-size:large;
+    text-decoration: none;
+}
+.taches .menu-tache span
+{
+    color: rgb(41, 223, 255);
+}
+.menu-tache ul li:last-child
+{
+    border-bottom: none;
+}
+.menu-tache ul li:hover
+{
+    color: black;
+    background-color:blanchedalmond;
+}
+.taches
+{
+    display: flex;
+}
+.taches .menu-tache .active
+{
+    color: black;
+    background-color:rgb(255, 224, 176);
+}
+.edit
+{
+    background-color: rgb(255, 255, 255);
+    height: 607px;
+    width: 74.3%;
+    margin: 50px 0 0 25.7%;
+}
+.edit h1
+{
+    background-color: rgb(54, 92, 122);;
+    margin: 5% 10%  0 10%;
+    text-align:center;
+    color: rgb(236, 236, 236);
+    padding: 10px;
+    border-radius: 5px;
+}
+.edit table
+{
+    background-color: rgb(203, 209, 255);
+    margin: 3% 10% 0 10% ;
+    border-radius: 5px;
+}
+.edit table tr:first-of-type
+{
+    background-color: rgb(60, 118, 166);;
+}
+.edit table tr td
+{
+    border-right: 1px solid white;
+    text-align: center;
+    color: rgb(254, 253, 253);
+    padding: 5px 0;
+}
+.edit table tr:first-of-type td
+{
+    font-size: large;
+    border-right: none;
+}
+.edit table tr td:nth-last-of-type(4)
+{
+    width: 250px;
+}
+.edit table tr td:nth-last-of-type(3)
+{
+    width: 110px;
+}
+.edit table tr td:nth-last-of-type(2)
+{
+    width: 340px;
+}
+.edit table tr td:nth-last-of-type(1)
+{
+    width: 100px;
+}
+.edit .change_statu
+{
+    margin: 3% 10% 0 10% ;
+    border-radius: 5px;
+}
+.edit .change_statu h3
+{
+    background-color: rgb(59, 111, 154);;
+    color: white;
+    text-align: center;
+    padding: 8px 0;
+    
+}
+.edit .change_statu form
+{
+    background-color: rgb(218, 197, 255);
+    color: white;
+    padding: 10px 0;
+}
+.edit .change_statu form label
+{
+    color: rgb(255, 255, 255);
+    font-size: large;
+    font-weight: bold;
+    margin: 10px 5px 10px 25px;
+}
+.edit .change_statu form select
+{
+    width: 250px;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 0 10px 0 0;
+}
+.edit .change_statu form button
+{
+    background-color: rgb(3, 207, 3);
+    color: white;
+    font-size: large;
+    border-radius: 5px;
+    padding: 3px 25px;
+}
+.edit .change_statu form button:hover
+{
+    background-color: rgb(4, 255, 4);
+    transform: scaleX(1.05);
+}
+.edit .change_statu .erreur
+{
+    background-color: rgb(255, 34, 34);
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: larger;
+}

@@ -1,0 +1,283 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+header
+{
+    background-color: rgb(208, 208, 255);
+    height: 70px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+}
+.logo .mins
+{
+    width: 250px;
+    height: 75px;
+    margin: 0 0 0 50px;
+}
+.profil
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.profil p
+{
+    padding: 0 20px 0 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(14, 7, 95);
+    font-size: larger;
+    font-weight: bold;
+}
+.profil .sub-1 .fa
+{
+    color: rgb(14, 7, 95);
+}
+.profil img
+{
+    width: 65px;
+    border-radius: 25px;
+}
+.cache
+{
+    display: none;
+    position: absolute;
+    top:49px;
+    height: 90px;
+    background-color: rgb(208, 208, 255);
+    margin-left: 135px;
+    width: 150px;
+    font-weight: bold;
+    font-size: large;
+    padding: 0 18px 0 10px;
+    border-radius: 5px;
+    transition: all 1s;
+}
+.cache p
+{
+    border-bottom: 1px dotted white;
+    padding: 8px;
+    text-align: center;
+    cursor: pointer;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.7);
+    font-size: large;
+    font-weight: bold;
+}
+.cache p:last-child
+{
+    border-bottom:none;
+}
+.profil .cache a
+{
+    text-decoration: none;
+}
+.profil .cache a:hover
+{
+    color: aqua;
+}
+.profil .cache p:hover
+{
+    color: aqua;
+    transform: scaleX(1.15);
+}
+.menu-tache
+{
+    margin-top: 70px;
+    width: 25.7%;
+    height: 605px;
+    background-color: rgb(46, 81, 110);
+    position:fixed;
+}
+.menu-tache ul
+{
+    padding-top:0px;
+    text-align: center;
+}
+.menu-tache ul li
+{
+    padding:26px 0 ;
+    border-bottom: 1px solid white;
+    color:rgb(252, 251, 250);
+    font-weight: bolder;
+    font-size:larger;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+.menu-tache ul li a
+{
+    color:rgb(252, 251, 250);
+    font-weight: bold;
+    font-size:large;
+    text-decoration: none;
+}
+.menu-tache ul li:last-child
+{
+    border-bottom: none;
+}
+.menu-tache ul li:hover
+{
+    color: black;
+    background-color:blanchedalmond;
+}
+.taches
+{
+    display: flex;
+}
+.taches .menu-tache .active
+{
+    color: black;
+    background-color:rgb(255, 224, 176);
+}
+.taches .menu-tache span
+{
+    color: rgb(41, 223, 255);
+}
+.affiche_tache
+{
+    background-color: rgb(255, 255, 255);
+    height: 607px;
+    width: 74.3%;
+    margin: 50px 0 0 25.7%;
+}
+.affiche_tache .divtitre
+{
+    border: none;
+    width:90%;
+    margin:5% 0 0 5%;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: rgb(235, 235, 245);
+    border-radius: 3px;
+}
+.affiche_tache .divtitre .titre
+{
+    color: rgb(144, 201, 248);
+    font-weight: bold;
+    font-size: large;
+    margin: 5px 0 0 0;
+}
+.affiche_tache .chercher label
+{
+    color: #170982;
+    font-size: large;
+    font-weight: bold;
+}
+.affiche_tache .chercher input
+{
+    height: 27px;
+    width: 250px;
+    border-radius: 5px;
+    padding: 0 0 0 5px;
+}
+.affiche_tache .chercher button
+{
+    background-color: rgb(0, 209, 91);
+    padding: 5px 13px;
+    color: white;
+    border-radius: 5px;
+    font-size:medium;
+    font-weight:lighter;
+    border: none;
+}
+.affiche_tache .chercher button:hover
+{
+    transform: scaleX(1.05);
+    background-color: rgb(50, 255, 50);
+}
+.affiche_tache .fa-search
+{
+    color: #ffffff;
+}
+table
+{
+    border: none;
+    width:92%;
+    margin: 2% 0 0 5% ;
+    display: flex;
+    justify-content: space-between;
+    background-color:  rgb(235, 235, 245);
+    border-radius: 3px;
+}
+table tr:first-of-type
+{
+    background-color:rgb(185, 185, 237);
+}
+table tr td
+{
+    text-align: center;
+    padding: 10px 0;
+    color: rgb(10, 0, 81);
+    font-weight: bold;
+}
+table tr td:first-of-type
+{
+    width: 265px;
+}
+table tr td:nth-last-of-type(4)
+{
+    width: 200px;
+}
+table tr td:nth-last-of-type(3)
+{
+    width: 175px;
+}
+table tr td:nth-last-of-type(2)
+{
+    width: 175px;
+}
+table tr td:nth-last-of-type(1)
+{
+    width: 110px;
+}
+.fa
+{
+    color: rgb(161, 129, 129);
+}
+table tr td .fa
+{
+    color: rgb(41, 201, 207);
+}
+.fa-bell
+{
+    color: #ffffff;
+    width: 16px;
+}
+.page
+{
+    border: none;
+    width:92%;
+    margin: 0.5% 0 0 5% ;
+    background-color:  rgb(235, 235, 245);
+    border-radius: 3px;
+    padding: 10px 0 10px 0;
+}
+.page ul
+{
+    list-style: none;
+    margin-left: 35px;
+    display: flex;
+}
+.page ul li 
+{
+    background-color:  rgb(208, 208, 255);
+    padding: 8px 20px;
+    border-radius: 5px;
+    margin-right: 5px;
+
+}
+.page ul li a
+{
+    text-decoration: none;
+}
+.page ul .pageactive
+{
+    background-color: #5348a1;
+}
+.page ul .pageactive a
+{
+    color: white;
+}

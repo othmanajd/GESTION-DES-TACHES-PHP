@@ -1,0 +1,141 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+header
+{
+    background-color: rgb(208, 208, 255);
+    height: 70px;
+    width: 100%;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+}
+.logo .mins
+{
+    width: 250px;
+    height: 75px;
+    margin: 0 0 0 50px;
+}
+.profil
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.profil p
+{
+    padding: 0 20px 0 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(14, 7, 95);
+    font-size: larger;
+    font-weight: bold;
+}
+.profil .sub-1 .fa
+{
+    color: rgb(14, 7, 95);
+}
+.profil img
+{
+    width: 65px;
+    border-radius: 25px;
+}
+.cache
+{
+    display: none;
+    position: absolute;
+    top:49px;
+    height: 90px;
+    background-color: rgb(208, 208, 255);
+    margin-left: 135px;
+    width: 150px;
+    font-weight: bold;
+    font-size: large;
+    padding: 0 18px 0 10px;
+    border-radius: 5px;
+    transition: all 1s;
+}
+.cache p
+{
+    border-bottom: 1px dotted white;
+    padding: 8px;
+    text-align: center;
+    cursor: pointer;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.7);
+    font-size: large;
+    font-weight: bold;
+}
+.cache p:last-child
+{
+    border-bottom:none;
+}
+.profil .cache a
+{
+    text-decoration: none;
+}
+.profil .cache a:hover
+{
+    color: aqua;
+}
+.profil .cache p:hover
+{
+    color: aqua;
+    transform: scaleX(1.15);
+}
+body .affichge
+{
+    background-color: rgb(255, 255, 255);
+    margin: 70px 12.5% 0 12.5%;
+
+}
+body .affichge .chercher
+{
+    background-color: rgb(235, 235, 245);
+    margin: 10% 0;
+    padding: 10px 5px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+body .affichge .chercher .titre
+{
+    color: rgb(144, 201, 248);
+    font-weight: bold;
+    font-size: large;
+}
+body .affichge .chercher label
+{
+    color: #170982;
+    font-size: large;
+    font-weight: bold;
+}
+body .affichge .chercher select
+{
+    padding: 5px 40px 5px 3px;
+    border-radius: 5px;
+    margin-right: 5px;
+}
+body .affichge .chercher button
+{
+    background-color: rgb(0, 209, 91);
+    padding: 5px 13px;
+    color: white;
+    border-radius: 5px;
+    font-size:medium;
+    font-weight:lighter;
+    border: none;
+}
+body .affichge .chercher button:hover
+{
+    transform: scaleX(1.05);
+    background-color: rgb(50, 255, 50);
+}
+body .affichge .rend
+{
+    background-color: rgb(255, 255, 255);
+    padding: 5px;
+    margin: -30px 0 0 0;
+}

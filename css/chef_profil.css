@@ -1,0 +1,249 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+header
+{
+    background-color: rgb(208, 208, 255);
+    height: 70px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+}
+.logo .mins
+{
+    width: 250px;
+    height: 75px;
+    margin: 0 0 0 50px;
+}
+.profil
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.profil p
+{
+    padding: 0 20px 0 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(14, 7, 95);
+    font-size: larger;
+    font-weight: bold;
+}
+.profil .sub-1 .fa
+{
+    color: rgb(14, 7, 95);
+}
+.profil img
+{
+    width: 65px;
+    border-radius: 25px;
+}
+.cache
+{
+    display: none;
+    position: absolute;
+    top:49px;
+    height: 90px;
+    background-color: rgb(208, 208, 255);
+    margin-left: 135px;
+    width: 150px;
+    font-weight: bold;
+    font-size: large;
+    padding: 0 18px 0 10px;
+    border-radius: 5px;
+    transition: all 1s;
+}
+.cache p
+{
+    border-bottom: 1px dotted white;
+    padding: 8px;
+    text-align: center;
+    cursor: pointer;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.7);
+    font-size: large;
+    font-weight: bold;
+}
+.cache p:last-child
+{
+    border-bottom:none;
+}
+.profil .cache a
+{
+    text-decoration: none;
+}
+.profil .cache a:hover
+{
+    color: aqua;
+}
+.profil .cache p:hover
+{
+    color: aqua;
+    transform: scaleX(1.15);
+}
+.menu-tache
+{
+    margin-top: 70px;
+    width: 25.7%;
+    height: 605px;
+    background-color: rgb(46, 81, 110);
+    position:fixed;
+}
+.menu-tache ul
+{
+    padding-top:0px;
+    text-align: center;
+}
+.menu-tache ul li
+{
+    padding:26px 0 ;
+    border-bottom: 1px solid white;
+    color:rgb(252, 251, 250);
+    font-weight: bolder;
+    font-size:larger;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+.menu-tache ul li a
+{
+    color:rgb(252, 251, 250);
+    font-weight: bold;
+    font-size:large;
+    text-decoration: none;
+}
+.menu-tache ul li:last-child
+{
+    border-bottom: none;
+}
+.menu-tache ul li:hover
+{
+    color: black;
+    background-color:blanchedalmond;
+}
+.taches
+{
+    display: flex;
+}
+.taches .menu-tache .active
+{
+    color: black;
+    background-color:rgb(255, 224, 176);
+}
+.taches .menu-tache span
+{
+    color: rgb(41, 223, 255);
+}
+.affichage_profil
+{
+    background-color: rgb(255, 255, 255);
+    height: 607px;
+    width: 74.3%;
+    margin: 50px 0 0 25.7%;
+}
+.info
+{
+    background-color: rgb(67, 118, 157);
+    position: absolute;
+    top: 17%;
+    left: 48%;
+    transform: (translate(-50%,-50%));
+    width: 450px;
+    border-radius:5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+.imge
+{
+    background-color: rgb(2, 255, 255);
+    height: 70px;
+    border-radius:5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+.imge img
+{
+    width: 100px;
+    border-radius: 50%;
+    position: relative;
+    top: 20%;
+    left: 38%;
+    transform: (translate(-50%,-50%));
+    border: 4px solid rgb(1, 213, 255);
+}
+.perso h3
+{
+    margin: 60px 1px 1px 1px ;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+.perso h3 .name
+{
+    color:rgb(1, 194, 194);
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    font-family: 'Borel', cursive; 
+}
+table
+{
+    margin: -50px 5px 0px 10px;
+}
+table tr td
+{
+    border-bottom: 1px solid white;
+    padding: 10px;
+    margin: 0 5px 0 0 ;
+    text-align: center;
+    width: 250px;
+    font-size: large;
+    font-weight: bold;
+    color: rgb(181, 236, 218);
+}
+table tr td:first-of-type
+{
+    font-size: large;
+    font-weight: bold;
+    margin:5px 50px 5px 100px;
+    color: rgb(255, 255, 255);
+    width: 130px;
+}
+table tr td:hover
+{
+    transform: scaleX(1.05);
+    color: rgb(104, 253, 241);
+    cursor: pointer;
+    font-size: larger;
+}
+table tr td:first-of-type:hover
+{
+    color: rgb(203, 205, 255);
+    font-size: larger;
+    cursor: pointer;
+}
+.span-perso
+{
+    border-bottom:none;
+}
+button
+{
+    position: relative;
+    top: 20%;
+    transform: (translate(-50%,-50%));
+    padding: 8px 20px;
+    margin: 5px 0 10px 0;
+    background-color: rgb(255, 38, 38);
+    color: rgb(254, 254, 254);
+    font-size: large;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+}
+button:hover
+{
+    background-color: rgb(255, 0, 0);
+    transform: scaleX(1.07);
+}
+button a
+{
+    text-decoration: none;
+    color: white;
+}

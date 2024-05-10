@@ -1,0 +1,109 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+body
+{
+    background-color:rgb(208, 208, 255);
+}
+.logo
+{
+    display: flex;
+    justify-content: space-between;
+}
+.logo img 
+{
+    width: 100px;
+    height: 80px;
+    border-radius: 5px;
+    margin: 3px 3px;
+}
+.logo .mins
+{
+    width: 150px;
+}
+.form
+{
+    background-color: rgb(212, 217, 228);
+    position: absolute;
+    top: 15%;
+    left: 30%;
+    transform: (translate(-50%,-50%));
+    width: 450px;
+    border-radius:5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+label
+{
+    margin-left: 30px;
+    color:rgb(96, 144, 255);
+    font-weight: bolder;
+    text-align: center;
+    font-size: large;
+}
+input
+{
+    width: 400px;
+    height: 40px;
+    border-radius: 5px;
+    margin: 15px 25px;
+    padding-left: 5px;
+}
+div form p
+{
+    color: rgb(90, 137, 255);
+    font-weight: bolder;
+    text-align: center;
+    margin: 10px;
+}
+.con
+{
+    font-size:25px;
+}
+button
+{
+    background-color: rgba(32, 240, 32, 0.76);
+    padding: 5px 50px ;
+    border-radius: 5px;
+    margin: 10px 115px;
+    width: 250px;
+    cursor: pointer;
+    color:rgb(255, 255, 255);
+    font-size: larger;
+}
+button:hover
+{
+    transform: scaleX(1.05);
+    background-color: rgb(3, 255, 3);
+}
+a
+{
+    text-decoration: none;
+    color:rgb(13, 48, 172);
+    float: left;
+    margin-left: 25px;
+    padding-bottom: 25px;
+    cursor: pointer;
+}
+a:hover
+{
+    color: rgb(0, 51, 255);
+    font-size: large;
+}
+.erreur
+{
+    position: absolute;
+    top: 14%;
+    left:30%;
+    width: 450px;
+    text-align: center;
+    color: rgb(218, 124, 124);
+    margin: 5px 0;
+    font-size: 20px;
+    background-color: rgb(255, 80, 80);
+    padding: 5px 0;
+    padding-bottom: 10px;
+    border-radius: 5px;
+    color: rgb(246, 245, 245);
+}

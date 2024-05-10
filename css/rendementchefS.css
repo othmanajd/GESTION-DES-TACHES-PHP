@@ -1,0 +1,206 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+header
+{
+    background-color: rgb(208, 208, 255);
+    height: 70px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+}
+.logo .mins
+{
+    width: 250px;
+    height: 75px;
+    margin: 0 0 0 50px;
+}
+.profil
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.profil p
+{
+    padding: 0 20px 0 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(14, 7, 95);
+    font-size: larger;
+    font-weight: bold;
+}
+.profil .sub-1 .fa
+{
+    color: rgb(14, 7, 95);
+}
+.profil img
+{
+    width: 65px;
+    border-radius: 25px;
+}
+.cache
+{
+    display: none;
+    position: absolute;
+    top:49px;
+    height: 90px;
+    background-color: rgb(208, 208, 255);
+    margin-left: 135px;
+    width: 150px;
+    font-weight: bold;
+    font-size: large;
+    padding: 0 18px 0 10px;
+    border-radius: 5px;
+    transition: all 1s;
+}
+.cache p
+{
+    border-bottom: 1px dotted white;
+    padding: 8px;
+    text-align: center;
+    cursor: pointer;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.7);
+    font-size: large;
+    font-weight: bold;
+}
+.cache p:last-child
+{
+    border-bottom:none;
+}
+.profil .cache a
+{
+    text-decoration: none;
+}
+.profil .cache a:hover
+{
+    color: aqua;
+}
+.profil .cache p:hover
+{
+    color: aqua;
+    transform: scaleX(1.15);
+}
+.menu-tache
+{
+    margin-top: 70px;
+    width: 25.7%;
+    height: 605px;
+    background-color: rgb(46, 81, 110);
+    position:fixed;
+}
+.taches .menu-tache span
+{
+    color: rgb(41, 223, 255);
+}
+.menu-tache ul
+{
+    padding-top:0px;
+    text-align: center;
+}
+.menu-tache ul li
+{
+    padding:26px 0 ;
+    border-bottom: 1px solid white;
+    color:rgb(252, 251, 250);
+    font-weight: bolder;
+    font-size:larger;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+.menu-tache ul li a
+{
+    color:rgb(252, 251, 250);
+    font-weight: bold;
+    font-size:large;
+    text-decoration: none;
+}
+.menu-tache ul li:last-child
+{
+    border-bottom: none;
+}
+.menu-tache ul li:hover
+{
+    color: black;
+    background-color:blanchedalmond;
+}
+.taches
+{
+    display: flex;
+}
+.taches .menu-tache .active
+{
+    color: black;
+    background-color:rgb(255, 224, 176);
+}
+.affiche_tache
+{
+    background-color: rgb(255, 255, 255);
+    height: 607px;
+    width: 74.3%;
+    margin: 50px 0 0 25.7%;
+}
+.affiche_tache .divtitre
+{
+    border: none;
+    width:90%;
+    margin:5% 0 0 5%;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: rgb(235, 235, 245);
+    border-radius: 3px;
+}
+.affiche_tache .divtitre .titre
+{
+    color: rgb(144, 201, 248);
+    font-weight: bolder;
+    margin: 5px 0 0 0;
+    font-size: larger;
+    font-weight: bolder;
+}
+.affiche_tache .chercher label
+{
+    font-size: larger;
+    font-weight: bolder;
+    color: rgb(50, 50, 138);
+}
+.affiche_tache .chercher select
+{
+    border-radius: 5px;
+    padding: 5px 40px 5px 5px;
+    font-weight: bold;
+}
+.affiche_tache .chercher button
+{
+    background-color: rgb(0, 209, 91);
+    padding: 5px 10px;
+    color: white;
+    border-radius: 5px;
+    font-size:medium;
+    font-weight:lighter;
+    border: none;
+}
+.affiche_tache .chercher button:hover
+{
+    transform: scaleX(1.05);
+    background-color: rgb(50, 255, 50);
+}
+.rendement
+{
+    display: flex;
+}
+.baton
+{
+    width: 50%;
+    background-color: brown;
+    height: 80%;
+}
+.cercl
+{
+    width: 50%;
+    background-color: rgb(0, 0, 0);
+    height: 80%;
+}
